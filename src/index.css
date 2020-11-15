@@ -9,3 +9,29 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+@font-face {
+    font-family: 'Aubrey';
+    src: local('Aubrey'), url('./fonts/Aubrey.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: local('CaviarDreams'), url('./fonts/CaviarDreams.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'CaviarDreams_Bold';
+    src: local('CaviarDreams_Bold'), url('./fonts/CaviarDreams_Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'CaviarDreams_BoldItalic';
+    src: local('CaviarDreams_BoldItalic'), url('./fonts/CaviarDreams_BoldItalic.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'CaviarDreams_Italic';
+    src: local('CaviarDreams_Italic'), url('./fonts/CaviarDreams_Italic.ttf') format('ttf');
+}
+div {
+    display: flex;
+    flex: 1;
+}

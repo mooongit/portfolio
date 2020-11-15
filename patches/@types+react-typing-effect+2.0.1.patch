@@ -1,0 +1,12 @@
+diff --git a/node_modules/@types/react-typing-effect/index.d.ts b/node_modules/@types/react-typing-effect/index.d.ts
+index 0a59916..666cd4e 100644
+--- a/node_modules/@types/react-typing-effect/index.d.ts
++++ b/node_modules/@types/react-typing-effect/index.d.ts
+@@ -15,6 +15,7 @@ export interface ReactTypingEffectProps {
+     typingDelay?: number;
+     cursor?: string;
+     cursorClassName?: string;
++    displayTextRenderer?: (text: string, index: number) => JSX.Element;
+ }
+ 
+ export default class ReactTypingEffect extends Component<ReactTypingEffectProps> {}

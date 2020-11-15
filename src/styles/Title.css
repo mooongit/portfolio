@@ -47,6 +47,9 @@
     align-items: center;
     /* border: 1px solid purple; */
 }
+.title__heading--name .highlight {
+    color: brown;
+}
 .title__heading--description {
     flex: 1;
     display: flex;
@@ -64,6 +67,9 @@
 
 .title__button {
     font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'CaviarDreams';
     border-color: bisque;
     background-color: bisque;
     border-width: 4px;
